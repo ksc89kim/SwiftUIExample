@@ -19,6 +19,7 @@
 		A47CA5CE243C9D4800595069 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CA5CB243C9D4800595069 /* Order.swift */; };
 		A47CA5CF243C9D4800595069 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CA5CC243C9D4800595069 /* Menu.swift */; };
 		A4B0EDFB2444403400EAA35A /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = A4B0EDFA2444403400EAA35A /* menu.json */; };
+		A4B0EDFD2444468A00EAA35A /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B0EDFC2444468A00EAA35A /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		A47CA5CB243C9D4800595069 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		A47CA5CC243C9D4800595069 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		A4B0EDFA2444403400EAA35A /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		A4B0EDFC2444468A00EAA35A /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				A47CA59A243C9C9500595069 /* AppDelegate.swift */,
 				A47CA59C243C9C9500595069 /* SceneDelegate.swift */,
 				A47CA59E243C9C9500595069 /* ContentView.swift */,
+				A4B0EDFC2444468A00EAA35A /* ItemRow.swift */,
 				A47CA5A0243C9C9700595069 /* Assets.xcassets */,
 				A47CA5A5243C9C9700595069 /* LaunchScreen.storyboard */,
 				A47CA5A8243C9C9700595069 /* Info.plist */,
@@ -283,6 +286,7 @@
 				A47CA5CF243C9D4800595069 /* Menu.swift in Sources */,
 				A47CA59B243C9C9500595069 /* AppDelegate.swift in Sources */,
 				A47CA59D243C9C9500595069 /* SceneDelegate.swift in Sources */,
+				A4B0EDFD2444468A00EAA35A /* ItemRow.swift in Sources */,
 				A47CA5CE243C9D4800595069 /* Order.swift in Sources */,
 				A47CA59F243C9C9500595069 /* ContentView.swift in Sources */,
 				A47CA5CD243C9D4800595069 /* Helper.swift in Sources */,
