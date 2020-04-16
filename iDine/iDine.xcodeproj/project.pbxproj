@@ -21,6 +21,7 @@
 		A4AF8D252445A11E00B86CAE /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AF8D242445A11E00B86CAE /* ItemDetail.swift */; };
 		A4B0EDFB2444403400EAA35A /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = A4B0EDFA2444403400EAA35A /* menu.json */; };
 		A4B0EDFD2444468A00EAA35A /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B0EDFC2444468A00EAA35A /* ItemRow.swift */; };
+		A4FFA0E3244835D20041C619 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FFA0E2244835D20041C619 /* OrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		A4AF8D242445A11E00B86CAE /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		A4B0EDFA2444403400EAA35A /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		A4B0EDFC2444468A00EAA35A /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		A4FFA0E2244835D20041C619 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				A47CA59E243C9C9500595069 /* ContentView.swift */,
 				A4B0EDFC2444468A00EAA35A /* ItemRow.swift */,
 				A4AF8D242445A11E00B86CAE /* ItemDetail.swift */,
+				A4FFA0E2244835D20041C619 /* OrderView.swift */,
 				A47CA5A0243C9C9700595069 /* Assets.xcassets */,
 				A47CA5A5243C9C9700595069 /* LaunchScreen.storyboard */,
 				A47CA5A8243C9C9700595069 /* Info.plist */,
@@ -292,6 +295,7 @@
 				A4B0EDFD2444468A00EAA35A /* ItemRow.swift in Sources */,
 				A47CA5CE243C9D4800595069 /* Order.swift in Sources */,
 				A4AF8D252445A11E00B86CAE /* ItemDetail.swift in Sources */,
+				A4FFA0E3244835D20041C619 /* OrderView.swift in Sources */,
 				A47CA59F243C9C9500595069 /* ContentView.swift in Sources */,
 				A47CA5CD243C9D4800595069 /* Helper.swift in Sources */,
 			);

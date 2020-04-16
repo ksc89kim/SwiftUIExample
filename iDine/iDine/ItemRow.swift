@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct ItemRow: View {
+
     var item:MenuItem
     static let colors:[String:Color] = ["D":.purple, "G":.black, "N":.red, "S":.blue, "V":.green]
 
@@ -32,7 +33,8 @@ struct ItemRow: View {
 }
 
 struct ItemRow_Previews: PreviewProvider {
+    static let order = Order()
     static var previews: some View {
-        ItemRow(item:MenuItem.example)
+        ItemRow(item:MenuItem.example).environmentObject(order)
     }
 }
