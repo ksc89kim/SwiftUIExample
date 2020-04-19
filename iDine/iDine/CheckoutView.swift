@@ -24,6 +24,8 @@ struct CheckoutView: View {
         return total + tipValue
     }
     
+    @State private var showingPaymentAlert = false
+    
     static let paymentTypes = ["Cash", "Credit Card", "iDine Points"]
     var body: some View {
         Form {
@@ -51,10 +53,13 @@ struct CheckoutView: View {
                 Text("TOTAL: $\(totalPrice, specifier: "%.2f")")
             ) {
                 Button("Confirm order") {
-                    // place the order
+                    self.showingPaymentAlert.toggle()
                 }
             }
-        }.navigationBarTitle(Text("Payment"), displayMode: .inline)
+        }.navigationBarTitle(Text("Payment"), displayMode: .inline).alert(isPresented: $showingPaymentAlert) {
+            
+            Alert(title: Text("Order confirmed"), message: Text("Your total was $\(totalPrice, specifier: "%.2f") – thank you!"), dismissButton: .default(Text("OK")))
+        }
     }
 }
 
