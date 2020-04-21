@@ -21,7 +21,6 @@ struct ContentView: View {
 //            줄수 지정
             Text("Hello, World!")
                        .lineLimit(3)
-            
 //            줄수 지정 및 ... 위치 수정
                 Text("This is an extremely long textbstring that will never fit even the widest of Phones")
                 .lineLimit(1)
@@ -37,9 +36,22 @@ struct ContentView: View {
 //            줄 간격 지정
             Text("This is an extremely long string that will never fit even the widest of Phones")
             .lineSpacing(50)
-            
 //            포맷터 확인
             Text("Task due date: \(dueDate, formatter: Self.taskDateFormat)")
+//            문자 간격
+//            tracking은 ligatures를 분리
+//            kerning은 ligatures를 미분리
+            Text("Hello World")
+            .tracking(20)
+            VStack {
+                Text("ffi")
+                    .font(.custom("AmericanTypewriter", size: 72))
+                    .kerning(50)
+                Text("ffi")
+                    .font(.custom("AmericanTypewriter", size: 72))
+                    .tracking(50)
+            }
+            
         }
         
     }
