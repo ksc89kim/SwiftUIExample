@@ -9,6 +9,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    static let taskDateFormat: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .long
+        return formatter
+    }()
+    var dueDate = Date()
+    
     var body: some View {
         List {
 //            줄수 지정
@@ -31,6 +38,8 @@ struct ContentView: View {
             Text("This is an extremely long string that will never fit even the widest of Phones")
             .lineSpacing(50)
             
+//            포맷터 확인
+            Text("Task due date: \(dueDate, formatter: Self.taskDateFormat)")
         }
         
     }
