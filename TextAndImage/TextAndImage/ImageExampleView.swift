@@ -23,6 +23,11 @@ struct ImageExampleView: View {
 //            폰트 크기와 같이 이미지를 스케일링 할 수 있다.
             Image(systemName: "cloud.heavyrain.fill")
             .font(.largeTitle)
+//            이미지 사이즈를 컨텐츠 크기에 맞게 자동으로 재조절 aspectRatio로 설정값도 주는것도 가능.
+            Image("all-out-donuts-thumb")
+            .resizable()
+                .aspectRatio(contentMode: .fit)
+
         }
         
     }
