@@ -10,20 +10,28 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        
         List {
-//            줄수 지정 Modifier
+//            줄수 지정
             Text("Hello, World!")
                        .lineLimit(3)
             
-//            줄수 지정 및 ... 위치 수정 Modifier
+//            줄수 지정 및 ... 위치 수정
                 Text("This is an extremely long textbstring that will never fit even the widest of Phones")
                 .lineLimit(1)
                 .truncationMode(.middle)
+//            폰트 지정 및 정렬
+            Text("This is an extremely long textbstring that will never fit even the widest of Phones")
+                .font(.largeTitle)
+                .multilineTextAlignment(.center)
+//            포그라운드 색상 및 백그라운드 색상 지정
+            Text("The best laid plans")
+                .background(Color.yellow)
+            .foregroundColor(Color.red)
+//            줄 간격 지정
+            Text("This is an extremely long string that will never fit even the widest of Phones")
+            .lineSpacing(50)
             
         }
-       
-        
         
     }
 }
