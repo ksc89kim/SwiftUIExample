@@ -20,12 +20,29 @@ struct SpaceExampleView: View {
             // Padding Bottom 적용
             Text("SwiftUI")
                 .padding(.bottom)
-            //  Padding 값 적용
+            //  Padding 값 적용 및 방향 적용
             Text("SwiftUI")
             .padding(100)
             Text("SwiftUI")
                 .padding(.bottom,100)
-            
+            // Spacer 예제
+            VStack {
+                Spacer()
+                Text("Hello World")
+                Spacer()
+            }
+            HStack {
+                Text("Hello")
+                Spacer()
+                Text("World")
+            }
+            // Spacer Frame 예제 명확한 수치를 계산화 하고 싶을때.
+            VStack {
+                Text("First Label")
+                Spacer()
+                    .frame(height: 50)
+                Text("Second Label")
+            }
         }
     }
 }
