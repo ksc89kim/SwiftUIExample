@@ -13,7 +13,9 @@ struct ContentView: View {
     var body: some View {
 //        TextExampleView()
         ImageExampleView()
+
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

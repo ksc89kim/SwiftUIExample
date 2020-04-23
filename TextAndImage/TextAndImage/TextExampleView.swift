@@ -52,39 +52,13 @@ struct TextExampleView: View {
                     .tracking(50)
             }
 //          백그라운드로 그레디언트를 가질수 있음. 다른곳에도 적용가능.
-//          리니어 그레디언트
+//          리니어 그레디언트 예제
             Text("Hello World")
                 .padding()
                 .foregroundColor(.white)
                 .background(LinearGradient(gradient: Gradient(colors: [.white, .red, .black]), startPoint: .top, endPoint: .bottom))
-//            라디얼 그레디언트
-//            Text("Hello World")
-//                .padding()
-//                .foregroundColor(.white)
-//                .background(getRadialCircle())
-            Text("Hello World")
-            .padding()
-            .foregroundColor(.white)
-            .background(getAngularCircle())
-            
-            
         }
         
-    }
-    
-    func getRadialCircle() -> some View {
-        let colors = Gradient(colors:[.red, .yellow, .green, .blue, .purple])
-        let conic = RadialGradient(gradient:colors, center:.center, startRadius:50, endRadius: 200 )
-        return Circle()
-        .fill(conic)
-        .frame(width: 400, height: 400)
-    }
-    
-    func getAngularCircle() -> some View {
-        let colors = Gradient(colors:[.red, .yellow, .green, .blue, .purple])
-        let conic = AngularGradient(gradient:colors, center:.center )
-        return Circle()
-        .strokeBorder(conic, lineWidth: 50)
     }
 }
 

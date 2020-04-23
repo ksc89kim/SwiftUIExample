@@ -17,6 +17,7 @@
 		A478F7B6244EC51800C3E5A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A478F7B4244EC51800C3E5A3 /* LaunchScreen.storyboard */; };
 		A478F7C1244EC51800C3E5A3 /* TextAndImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A478F7C0244EC51800C3E5A3 /* TextAndImageTests.swift */; };
 		A478F7CC244EC51800C3E5A3 /* TextAndImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A478F7CB244EC51800C3E5A3 /* TextAndImageUITests.swift */; };
+		A4CC31BC24516BFD00AF10A6 /* ShapeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CC31BB24516BFD00AF10A6 /* ShapeExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		A478F7C7244EC51800C3E5A3 /* TextAndImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextAndImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A478F7CB244EC51800C3E5A3 /* TextAndImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAndImageUITests.swift; sourceTree = "<group>"; };
 		A478F7CD244EC51800C3E5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4CC31BB24516BFD00AF10A6 /* ShapeExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				A478F7A9244EC51600C3E5A3 /* AppDelegate.swift */,
 				A478F7AB244EC51600C3E5A3 /* SceneDelegate.swift */,
 				A44C5CE0244ED85900AF2537 /* TextExampleView.swift */,
+				A4CC31BB24516BFD00AF10A6 /* ShapeExampleView.swift */,
 				A44C5CE2244ED8AD00AF2537 /* ImageExampleView.swift */,
 				A478F7AD244EC51600C3E5A3 /* ContentView.swift */,
 				A478F7AF244EC51800C3E5A3 /* Assets.xcassets */,
@@ -276,6 +279,7 @@
 				A44C5CE1244ED85900AF2537 /* TextExampleView.swift in Sources */,
 				A478F7AA244EC51600C3E5A3 /* AppDelegate.swift in Sources */,
 				A478F7AC244EC51600C3E5A3 /* SceneDelegate.swift in Sources */,
+				A4CC31BC24516BFD00AF10A6 /* ShapeExampleView.swift in Sources */,
 				A478F7AE244EC51600C3E5A3 /* ContentView.swift in Sources */,
 				A44C5CE3244ED8AD00AF2537 /* ImageExampleView.swift in Sources */,
 			);
