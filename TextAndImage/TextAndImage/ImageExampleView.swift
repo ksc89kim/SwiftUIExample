@@ -27,7 +27,9 @@ struct ImageExampleView: View {
             Image("all-out-donuts-thumb")
             .resizable()
                 .aspectRatio(contentMode: .fit)
-
+//            이미지를 바둑판 형식으로 배열하거나, 여백으로 늘리는게 가능.
+            Image("all-out-donuts-thumb")
+                .resizable(capInsets: EdgeInsets(top: 20, leading: 20, bottom: 20, trailing: 20), resizingMode: .tile)
         }
         
     }

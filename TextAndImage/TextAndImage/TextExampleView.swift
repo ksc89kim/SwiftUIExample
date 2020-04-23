@@ -52,7 +52,9 @@ struct TextExampleView: View {
                     .tracking(50)
             }
             
-        }    }
+        }
+        
+    }
 }
 
 struct TextExampleView_Previews: PreviewProvider {
