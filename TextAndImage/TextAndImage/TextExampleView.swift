@@ -57,6 +57,12 @@ struct TextExampleView: View {
                 .padding()
                 .foregroundColor(.white)
                 .background(LinearGradient(gradient: Gradient(colors: [.white, .red, .black]), startPoint: .top, endPoint: .bottom))
+//            백그라운드를 이용하여 이미지 넣기
+            Text("Hacking with Swift")
+                .font(.largeTitle)
+                .background(Image("all-out-donuts-thumb").resizable().frame(width: 100, height: 100))
+            .clipped()
+            
         }
         
     }
