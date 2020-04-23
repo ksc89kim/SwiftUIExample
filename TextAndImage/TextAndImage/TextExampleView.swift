@@ -18,29 +18,29 @@ struct TextExampleView: View {
     
     var body: some View {
         List {
-            //            줄수 지정
+//           줄수 지정
             Text("Hello, World!")
                 .lineLimit(3)
-            //            줄수 지정 및 ... 위치 수정
+//           줄수 지정 및 ... 위치 수정
             Text("This is an extremely long textbstring that will never fit even the widest of Phones")
                 .lineLimit(1)
                 .truncationMode(.middle)
-            //            폰트 지정 및 정렬
+//            폰트 지정 및 정렬
             Text("This is an extremely long textbstring that will never fit even the widest of Phones")
                 .font(.largeTitle)
                 .multilineTextAlignment(.center)
-            //            포그라운드 색상 및 백그라운드 색상 지정
+//           포그라운드 색상 및 백그라운드 색상 지정
             Text("The best laid plans")
                 .background(Color.yellow)
                 .foregroundColor(Color.red)
-            //            줄 간격 지정
+//          줄 간격 지정
             Text("This is an extremely long string that will never fit even the widest of Phones")
                 .lineSpacing(50)
-            //            포맷터 확인
+//          포맷터 확인
             Text("Task due date: \(dueDate, formatter: Self.taskDateFormat)")
-            //            문자 간격
-            //            tracking은 ligatures를 분리
-            //            kerning은 ligatures를 미분리
+//          문자 간격
+//          tracking은 ligatures를 분리
+//          kerning은 ligatures를 미분리
             Text("Hello World")
                 .tracking(20)
             VStack {
@@ -51,9 +51,40 @@ struct TextExampleView: View {
                     .font(.custom("AmericanTypewriter", size: 72))
                     .tracking(50)
             }
+//          백그라운드로 그레디언트를 가질수 있음. 다른곳에도 적용가능.
+//          리니어 그레디언트
+            Text("Hello World")
+                .padding()
+                .foregroundColor(.white)
+                .background(LinearGradient(gradient: Gradient(colors: [.white, .red, .black]), startPoint: .top, endPoint: .bottom))
+//            라디얼 그레디언트
+//            Text("Hello World")
+//                .padding()
+//                .foregroundColor(.white)
+//                .background(getRadialCircle())
+            Text("Hello World")
+            .padding()
+            .foregroundColor(.white)
+            .background(getAngularCircle())
+            
             
         }
         
+    }
+    
+    func getRadialCircle() -> some View {
+        let colors = Gradient(colors:[.red, .yellow, .green, .blue, .purple])
+        let conic = RadialGradient(gradient:colors, center:.center, startRadius:50, endRadius: 200 )
+        return Circle()
+        .fill(conic)
+        .frame(width: 400, height: 400)
+    }
+    
+    func getAngularCircle() -> some View {
+        let colors = Gradient(colors:[.red, .yellow, .green, .blue, .purple])
+        let conic = AngularGradient(gradient:colors, center:.center )
+        return Circle()
+        .strokeBorder(conic, lineWidth: 50)
     }
 }
 
