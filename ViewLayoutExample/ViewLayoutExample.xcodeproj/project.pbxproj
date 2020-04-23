@@ -16,6 +16,7 @@
 		A4CC31E12451787400AF10A6 /* ViewLayoutExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CC31E02451787400AF10A6 /* ViewLayoutExampleTests.swift */; };
 		A4CC31EC2451787400AF10A6 /* ViewLayoutExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CC31EB2451787400AF10A6 /* ViewLayoutExampleUITests.swift */; };
 		A4CC31FC24517A8800AF10A6 /* StackExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CC31FB24517A8800AF10A6 /* StackExampleView.swift */; };
+		A4CC31FE24517E6300AF10A6 /* SpaceExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CC31FD24517E6300AF10A6 /* SpaceExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A4CC31EB2451787400AF10A6 /* ViewLayoutExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLayoutExampleUITests.swift; sourceTree = "<group>"; };
 		A4CC31ED2451787400AF10A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4CC31FB24517A8800AF10A6 /* StackExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackExampleView.swift; sourceTree = "<group>"; };
+		A4CC31FD24517E6300AF10A6 /* SpaceExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				A4CC31CB2451787000AF10A6 /* SceneDelegate.swift */,
 				A4CC31CD2451787000AF10A6 /* ContentView.swift */,
 				A4CC31FB24517A8800AF10A6 /* StackExampleView.swift */,
+				A4CC31FD24517E6300AF10A6 /* SpaceExampleView.swift */,
 				A4CC31CF2451787400AF10A6 /* Assets.xcassets */,
 				A4CC31D42451787400AF10A6 /* LaunchScreen.storyboard */,
 				A4CC31D72451787400AF10A6 /* Info.plist */,
@@ -274,6 +277,7 @@
 				A4CC31CC2451787000AF10A6 /* SceneDelegate.swift in Sources */,
 				A4CC31FC24517A8800AF10A6 /* StackExampleView.swift in Sources */,
 				A4CC31CE2451787000AF10A6 /* ContentView.swift in Sources */,
+				A4CC31FE24517E6300AF10A6 /* SpaceExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
