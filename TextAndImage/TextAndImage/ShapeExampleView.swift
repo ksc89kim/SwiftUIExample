@@ -13,6 +13,7 @@ struct ShapeExampleView: View {
         VStack {
             getRadialCircle()
             getAngularCircle()
+            getRectangle()
         }
     }
     
@@ -31,6 +32,13 @@ struct ShapeExampleView: View {
         let conic = AngularGradient(gradient:colors, center:.center )
         return Circle()
         .strokeBorder(conic, lineWidth: 50)
+    }
+    
+    // 사각형
+    func getRectangle() -> some View {
+        return Rectangle()
+            .fill(Color.red)
+        .frame(width: 200, height: 200)
     }
 }
 
