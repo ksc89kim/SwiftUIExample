@@ -35,6 +35,26 @@ struct StackExampleView: View {
                 Text("SwiftUI")
                 Text("rocks")
             }
+            
+            // ZStack 예제
+            ZStack (alignment: .leading){
+                Image("all-out-donuts-thumb")
+                Text("Hacking with Swift")
+                    .font(.largeTitle)
+                    .foregroundColor(.black)
+            }
+            
+            // ZIndex 예제
+            ZStack {
+                Rectangle()
+                    .fill(Color.green)
+                    .frame(width: 50, height: 50)
+                    .zIndex(1)
+                
+                Rectangle()
+                    .fill(Color.red)
+                    .frame(width: 100, height: 100)
+            }
         }
 
     }
