@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A430E397245AA56900C27DB6 /* RandomExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A430E396245AA56900C27DB6 /* RandomExampleView.swift */; };
+		A430E399245AAB1500C27DB6 /* ForEachExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A430E398245AAB1500C27DB6 /* ForEachExample.swift */; };
+		A430E39B245AAEAA00C27DB6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A430E39A245AAEAA00C27DB6 /* Result.swift */; };
 		A4CC31CA2451787000AF10A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CC31C92451787000AF10A6 /* AppDelegate.swift */; };
 		A4CC31CC2451787000AF10A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CC31CB2451787000AF10A6 /* SceneDelegate.swift */; };
 		A4CC31CE2451787000AF10A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CC31CD2451787000AF10A6 /* ContentView.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A430E396245AA56900C27DB6 /* RandomExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomExampleView.swift; sourceTree = "<group>"; };
+		A430E398245AAB1500C27DB6 /* ForEachExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachExample.swift; sourceTree = "<group>"; };
+		A430E39A245AAEAA00C27DB6 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		A4CC31C62451787000AF10A6 /* ViewLayoutExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewLayoutExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CC31C92451787000AF10A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4CC31CB2451787000AF10A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +114,9 @@
 				A4CC31CD2451787000AF10A6 /* ContentView.swift */,
 				A4CC31FB24517A8800AF10A6 /* StackExampleView.swift */,
 				A4CC31FD24517E6300AF10A6 /* SpaceExampleView.swift */,
+				A430E396245AA56900C27DB6 /* RandomExampleView.swift */,
+				A430E398245AAB1500C27DB6 /* ForEachExample.swift */,
+				A430E39A245AAEAA00C27DB6 /* Result.swift */,
 				A4CC31CF2451787400AF10A6 /* Assets.xcassets */,
 				A4CC31D42451787400AF10A6 /* LaunchScreen.storyboard */,
 				A4CC31D72451787400AF10A6 /* Info.plist */,
@@ -277,6 +286,9 @@
 				A4CC31CC2451787000AF10A6 /* SceneDelegate.swift in Sources */,
 				A4CC31FC24517A8800AF10A6 /* StackExampleView.swift in Sources */,
 				A4CC31CE2451787000AF10A6 /* ContentView.swift in Sources */,
+				A430E399245AAB1500C27DB6 /* ForEachExample.swift in Sources */,
+				A430E397245AA56900C27DB6 /* RandomExampleView.swift in Sources */,
+				A430E39B245AAEAA00C27DB6 /* Result.swift in Sources */,
 				A4CC31FE24517E6300AF10A6 /* SpaceExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
