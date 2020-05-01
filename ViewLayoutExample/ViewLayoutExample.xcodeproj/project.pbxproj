@@ -12,6 +12,11 @@
 		A430E39B245AAEAA00C27DB6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A430E39A245AAEAA00C27DB6 /* Result.swift */; };
 		A430E39D245AB31500C27DB6 /* SizeClassesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A430E39C245AB31500C27DB6 /* SizeClassesExample.swift */; };
 		A430E39F245AB90200C27DB6 /* FrameExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A430E39E245AB90200C27DB6 /* FrameExample.swift */; };
+		A46B833D245BEABA000B429D /* SafeAreaExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B833C245BEABA000B429D /* SafeAreaExampleView.swift */; };
+		A46B833F245BED84000B429D /* ScrollViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B833E245BED84000B429D /* ScrollViewExample.swift */; };
+		A46B8341245BF090000B429D /* GeometryReaderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B8340245BF090000B429D /* GeometryReaderExample.swift */; };
+		A46B8343245BF693000B429D /* GridExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B8342245BF693000B429D /* GridExampleView.swift */; };
+		A46B8345245BF788000B429D /* GridStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B8344245BF788000B429D /* GridStack.swift */; };
 		A4CC31CA2451787000AF10A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CC31C92451787000AF10A6 /* AppDelegate.swift */; };
 		A4CC31CC2451787000AF10A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CC31CB2451787000AF10A6 /* SceneDelegate.swift */; };
 		A4CC31CE2451787000AF10A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CC31CD2451787000AF10A6 /* ContentView.swift */; };
@@ -47,6 +52,11 @@
 		A430E39A245AAEAA00C27DB6 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		A430E39C245AB31500C27DB6 /* SizeClassesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeClassesExample.swift; sourceTree = "<group>"; };
 		A430E39E245AB90200C27DB6 /* FrameExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameExample.swift; sourceTree = "<group>"; };
+		A46B833C245BEABA000B429D /* SafeAreaExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaExampleView.swift; sourceTree = "<group>"; };
+		A46B833E245BED84000B429D /* ScrollViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExample.swift; sourceTree = "<group>"; };
+		A46B8340245BF090000B429D /* GeometryReaderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderExample.swift; sourceTree = "<group>"; };
+		A46B8342245BF693000B429D /* GridExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridExampleView.swift; sourceTree = "<group>"; };
+		A46B8344245BF788000B429D /* GridStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridStack.swift; sourceTree = "<group>"; };
 		A4CC31C62451787000AF10A6 /* ViewLayoutExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewLayoutExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CC31C92451787000AF10A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4CC31CB2451787000AF10A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +132,11 @@
 				A430E398245AAB1500C27DB6 /* ForEachExample.swift */,
 				A430E39E245AB90200C27DB6 /* FrameExample.swift */,
 				A430E39C245AB31500C27DB6 /* SizeClassesExample.swift */,
+				A46B833C245BEABA000B429D /* SafeAreaExampleView.swift */,
+				A46B8340245BF090000B429D /* GeometryReaderExample.swift */,
+				A46B833E245BED84000B429D /* ScrollViewExample.swift */,
+				A46B8342245BF693000B429D /* GridExampleView.swift */,
+				A46B8344245BF788000B429D /* GridStack.swift */,
 				A430E39A245AAEAA00C27DB6 /* Result.swift */,
 				A4CC31CF2451787400AF10A6 /* Assets.xcassets */,
 				A4CC31D42451787400AF10A6 /* LaunchScreen.storyboard */,
@@ -288,14 +303,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A46B833F245BED84000B429D /* ScrollViewExample.swift in Sources */,
 				A430E39D245AB31500C27DB6 /* SizeClassesExample.swift in Sources */,
 				A4CC31CA2451787000AF10A6 /* AppDelegate.swift in Sources */,
 				A430E39F245AB90200C27DB6 /* FrameExample.swift in Sources */,
 				A4CC31CC2451787000AF10A6 /* SceneDelegate.swift in Sources */,
+				A46B8345245BF788000B429D /* GridStack.swift in Sources */,
+				A46B8341245BF090000B429D /* GeometryReaderExample.swift in Sources */,
 				A4CC31FC24517A8800AF10A6 /* StackExampleView.swift in Sources */,
+				A46B8343245BF693000B429D /* GridExampleView.swift in Sources */,
 				A4CC31CE2451787000AF10A6 /* ContentView.swift in Sources */,
 				A430E399245AAB1500C27DB6 /* ForEachExample.swift in Sources */,
 				A430E397245AA56900C27DB6 /* RandomExampleView.swift in Sources */,
+				A46B833D245BEABA000B429D /* SafeAreaExampleView.swift in Sources */,
 				A430E39B245AAEAA00C27DB6 /* Result.swift in Sources */,
 				A4CC31FE24517E6300AF10A6 /* SpaceExampleView.swift in Sources */,
 			);
