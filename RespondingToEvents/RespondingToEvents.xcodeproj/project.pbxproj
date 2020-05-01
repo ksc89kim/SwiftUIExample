@@ -15,6 +15,9 @@
 		A418B979245BFEC90067C00A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A418B977245BFEC90067C00A /* LaunchScreen.storyboard */; };
 		A418B984245BFEC90067C00A /* RespondingToEventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418B983245BFEC90067C00A /* RespondingToEventsTests.swift */; };
 		A418B98F245BFEC90067C00A /* RespondingToEventsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418B98E245BFEC90067C00A /* RespondingToEventsUITests.swift */; };
+		A418B99D245C03840067C00A /* ToggleSwitchExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418B99C245C03840067C00A /* ToggleSwitchExample.swift */; };
+		A418B99F245C05640067C00A /* ButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418B99E245C05640067C00A /* ButtonExample.swift */; };
+		A418B9A1245C075A0067C00A /* NavigationWithButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418B9A0245C075A0067C00A /* NavigationWithButtonExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		A418B98A245BFEC90067C00A /* RespondingToEventsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RespondingToEventsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A418B98E245BFEC90067C00A /* RespondingToEventsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespondingToEventsUITests.swift; sourceTree = "<group>"; };
 		A418B990245BFEC90067C00A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A418B99C245C03840067C00A /* ToggleSwitchExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleSwitchExample.swift; sourceTree = "<group>"; };
+		A418B99E245C05640067C00A /* ButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExample.swift; sourceTree = "<group>"; };
+		A418B9A0245C075A0067C00A /* NavigationWithButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationWithButtonExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				A418B977245BFEC90067C00A /* LaunchScreen.storyboard */,
 				A418B97A245BFEC90067C00A /* Info.plist */,
 				A418B974245BFEC90067C00A /* Preview Content */,
+				A418B99C245C03840067C00A /* ToggleSwitchExample.swift */,
+				A418B99E245C05640067C00A /* ButtonExample.swift */,
+				A418B9A0245C075A0067C00A /* NavigationWithButtonExample.swift */,
 			);
 			path = RespondingToEvents;
 			sourceTree = "<group>";
@@ -267,6 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A418B99F245C05640067C00A /* ButtonExample.swift in Sources */,
+				A418B99D245C03840067C00A /* ToggleSwitchExample.swift in Sources */,
+				A418B9A1245C075A0067C00A /* NavigationWithButtonExample.swift in Sources */,
 				A418B96D245BFEC80067C00A /* AppDelegate.swift in Sources */,
 				A418B96F245BFEC80067C00A /* SceneDelegate.swift in Sources */,
 				A418B971245BFEC80067C00A /* ContentView.swift in Sources */,
