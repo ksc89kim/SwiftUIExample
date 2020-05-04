@@ -18,6 +18,8 @@
 		A418B99D245C03840067C00A /* ToggleSwitchExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418B99C245C03840067C00A /* ToggleSwitchExample.swift */; };
 		A418B99F245C05640067C00A /* ButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418B99E245C05640067C00A /* ButtonExample.swift */; };
 		A418B9A1245C075A0067C00A /* NavigationWithButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418B9A0245C075A0067C00A /* NavigationWithButtonExample.swift */; };
+		A42D6F20245FF5ED009D40F1 /* PickerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D6F1F245FF5ED009D40F1 /* PickerExample.swift */; };
+		A42D6F22245FFADD009D40F1 /* StepperExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D6F21245FFADD009D40F1 /* StepperExample.swift */; };
 		A44A49FE245FE95300A2B3F0 /* SlideExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A49FD245FE95300A2B3F0 /* SlideExample.swift */; };
 		A4FDB984245FE3A1008A9CAE /* TextFieldExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FDB983245FE3A1008A9CAE /* TextFieldExample.swift */; };
 /* End PBXBuildFile section */
@@ -57,6 +59,8 @@
 		A418B99C245C03840067C00A /* ToggleSwitchExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleSwitchExample.swift; sourceTree = "<group>"; };
 		A418B99E245C05640067C00A /* ButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExample.swift; sourceTree = "<group>"; };
 		A418B9A0245C075A0067C00A /* NavigationWithButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationWithButtonExample.swift; sourceTree = "<group>"; };
+		A42D6F1F245FF5ED009D40F1 /* PickerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExample.swift; sourceTree = "<group>"; };
+		A42D6F21245FFADD009D40F1 /* StepperExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperExample.swift; sourceTree = "<group>"; };
 		A44A49FD245FE95300A2B3F0 /* SlideExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideExample.swift; sourceTree = "<group>"; };
 		A4FDB983245FE3A1008A9CAE /* TextFieldExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,6 +125,8 @@
 				A418B9A0245C075A0067C00A /* NavigationWithButtonExample.swift */,
 				A4FDB983245FE3A1008A9CAE /* TextFieldExample.swift */,
 				A44A49FD245FE95300A2B3F0 /* SlideExample.swift */,
+				A42D6F1F245FF5ED009D40F1 /* PickerExample.swift */,
+				A42D6F21245FFADD009D40F1 /* StepperExample.swift */,
 			);
 			path = RespondingToEvents;
 			sourceTree = "<group>";
@@ -282,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A42D6F20245FF5ED009D40F1 /* PickerExample.swift in Sources */,
 				A418B99F245C05640067C00A /* ButtonExample.swift in Sources */,
 				A418B99D245C03840067C00A /* ToggleSwitchExample.swift in Sources */,
 				A44A49FE245FE95300A2B3F0 /* SlideExample.swift in Sources */,
@@ -289,6 +296,7 @@
 				A418B9A1245C075A0067C00A /* NavigationWithButtonExample.swift in Sources */,
 				A418B96D245BFEC80067C00A /* AppDelegate.swift in Sources */,
 				A418B96F245BFEC80067C00A /* SceneDelegate.swift in Sources */,
+				A42D6F22245FFADD009D40F1 /* StepperExample.swift in Sources */,
 				A418B971245BFEC80067C00A /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
