@@ -18,6 +18,8 @@
 		A418B99D245C03840067C00A /* ToggleSwitchExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418B99C245C03840067C00A /* ToggleSwitchExample.swift */; };
 		A418B99F245C05640067C00A /* ButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418B99E245C05640067C00A /* ButtonExample.swift */; };
 		A418B9A1245C075A0067C00A /* NavigationWithButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418B9A0245C075A0067C00A /* NavigationWithButtonExample.swift */; };
+		A44A49FE245FE95300A2B3F0 /* SlideExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A49FD245FE95300A2B3F0 /* SlideExample.swift */; };
+		A4FDB984245FE3A1008A9CAE /* TextFieldExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FDB983245FE3A1008A9CAE /* TextFieldExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		A418B99C245C03840067C00A /* ToggleSwitchExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleSwitchExample.swift; sourceTree = "<group>"; };
 		A418B99E245C05640067C00A /* ButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExample.swift; sourceTree = "<group>"; };
 		A418B9A0245C075A0067C00A /* NavigationWithButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationWithButtonExample.swift; sourceTree = "<group>"; };
+		A44A49FD245FE95300A2B3F0 /* SlideExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideExample.swift; sourceTree = "<group>"; };
+		A4FDB983245FE3A1008A9CAE /* TextFieldExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				A418B99C245C03840067C00A /* ToggleSwitchExample.swift */,
 				A418B99E245C05640067C00A /* ButtonExample.swift */,
 				A418B9A0245C075A0067C00A /* NavigationWithButtonExample.swift */,
+				A4FDB983245FE3A1008A9CAE /* TextFieldExample.swift */,
+				A44A49FD245FE95300A2B3F0 /* SlideExample.swift */,
 			);
 			path = RespondingToEvents;
 			sourceTree = "<group>";
@@ -278,6 +284,8 @@
 			files = (
 				A418B99F245C05640067C00A /* ButtonExample.swift in Sources */,
 				A418B99D245C03840067C00A /* ToggleSwitchExample.swift in Sources */,
+				A44A49FE245FE95300A2B3F0 /* SlideExample.swift in Sources */,
+				A4FDB984245FE3A1008A9CAE /* TextFieldExample.swift in Sources */,
 				A418B9A1245C075A0067C00A /* NavigationWithButtonExample.swift in Sources */,
 				A418B96D245BFEC80067C00A /* AppDelegate.swift in Sources */,
 				A418B96F245BFEC80067C00A /* SceneDelegate.swift in Sources */,
