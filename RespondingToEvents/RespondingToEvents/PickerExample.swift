@@ -23,6 +23,8 @@ struct PickerExample: View {
     
     @State private var favoriteColor = 0
     
+    @State private var selectedNumber = 0
+    
     var body: some View {
         VStack {
             Picker(selection:$selectedColor, label:Text("Please choose a color")) {
@@ -41,6 +43,16 @@ struct PickerExample: View {
                 }
             }.pickerStyle(SegmentedPickerStyle())
             Text("Value : \(favoriteColor)")
+            
+//            피커 내부 라벨을 지우는 역할은 labelsHidden() modifier로 하는게 옳습니다.
+//            나쁜 방법으로는 EmptyView()를 파라매터에 대신 넣는 방법이 있는데, 해당 방법은 옳지 않습니다.
+//            그것은 라벨을 hidden 시키는것이 아니라 그저 비어있는 공간을 할당하는것 뿐이기 때문이다.
+            Picker("Select a number", selection: $selectedNumber) {
+                ForEach(0..<10) {
+                    Text("\($0)")
+                }
+            }.labelsHidden()
+
         }
     }
 }
