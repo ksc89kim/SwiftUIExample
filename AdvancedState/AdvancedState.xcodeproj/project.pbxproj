@@ -17,6 +17,8 @@
 		A4AAAE14246A73DD00BCA4F3 /* AdvancedStateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AAAE13246A73DD00BCA4F3 /* AdvancedStateUITests.swift */; };
 		A4BD898F246A7EF8001E1B7E /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BD898E246A7EF8001E1B7E /* UserSettings.swift */; };
 		A4BD8991246A8048001E1B7E /* ObservedObjectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BD8990246A8048001E1B7E /* ObservedObjectExample.swift */; };
+		A4BD8993246A84A2001E1B7E /* ObjectWillChangeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BD8992246A84A2001E1B7E /* ObjectWillChangeExample.swift */; };
+		A4BD8995246A84BF001E1B7E /* UserAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BD8994246A84BF001E1B7E /* UserAuthentication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		A4AAAE15246A73DD00BCA4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4BD898E246A7EF8001E1B7E /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 		A4BD8990246A8048001E1B7E /* ObservedObjectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectExample.swift; sourceTree = "<group>"; };
+		A4BD8992246A84A2001E1B7E /* ObjectWillChangeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectWillChangeExample.swift; sourceTree = "<group>"; };
+		A4BD8994246A84BF001E1B7E /* UserAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthentication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				A4AAADF9246A73DD00BCA4F3 /* Preview Content */,
 				A4BD898E246A7EF8001E1B7E /* UserSettings.swift */,
 				A4BD8990246A8048001E1B7E /* ObservedObjectExample.swift */,
+				A4BD8992246A84A2001E1B7E /* ObjectWillChangeExample.swift */,
+				A4BD8994246A84BF001E1B7E /* UserAuthentication.swift */,
 			);
 			path = AdvancedState;
 			sourceTree = "<group>";
@@ -274,7 +280,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4AAADF2246A73DC00BCA4F3 /* AppDelegate.swift in Sources */,
+				A4BD8993246A84A2001E1B7E /* ObjectWillChangeExample.swift in Sources */,
 				A4BD898F246A7EF8001E1B7E /* UserSettings.swift in Sources */,
+				A4BD8995246A84BF001E1B7E /* UserAuthentication.swift in Sources */,
 				A4AAADF4246A73DC00BCA4F3 /* SceneDelegate.swift in Sources */,
 				A4AAADF6246A73DC00BCA4F3 /* ContentView.swift in Sources */,
 				A4BD8991246A8048001E1B7E /* ObservedObjectExample.swift in Sources */,
