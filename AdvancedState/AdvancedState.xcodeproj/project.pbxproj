@@ -15,6 +15,8 @@
 		A4AAADFE246A73DD00BCA4F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4AAADFC246A73DD00BCA4F3 /* LaunchScreen.storyboard */; };
 		A4AAAE09246A73DD00BCA4F3 /* AdvancedStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AAAE08246A73DD00BCA4F3 /* AdvancedStateTests.swift */; };
 		A4AAAE14246A73DD00BCA4F3 /* AdvancedStateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AAAE13246A73DD00BCA4F3 /* AdvancedStateUITests.swift */; };
+		A4BD898F246A7EF8001E1B7E /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BD898E246A7EF8001E1B7E /* UserSettings.swift */; };
+		A4BD8991246A8048001E1B7E /* ObservedObjectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BD8990246A8048001E1B7E /* ObservedObjectExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		A4AAAE0F246A73DD00BCA4F3 /* AdvancedStateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedStateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4AAAE13246A73DD00BCA4F3 /* AdvancedStateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedStateUITests.swift; sourceTree = "<group>"; };
 		A4AAAE15246A73DD00BCA4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4BD898E246A7EF8001E1B7E /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		A4BD8990246A8048001E1B7E /* ObservedObjectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				A4AAADFC246A73DD00BCA4F3 /* LaunchScreen.storyboard */,
 				A4AAADFF246A73DD00BCA4F3 /* Info.plist */,
 				A4AAADF9246A73DD00BCA4F3 /* Preview Content */,
+				A4BD898E246A7EF8001E1B7E /* UserSettings.swift */,
+				A4BD8990246A8048001E1B7E /* ObservedObjectExample.swift */,
 			);
 			path = AdvancedState;
 			sourceTree = "<group>";
@@ -268,8 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4AAADF2246A73DC00BCA4F3 /* AppDelegate.swift in Sources */,
+				A4BD898F246A7EF8001E1B7E /* UserSettings.swift in Sources */,
 				A4AAADF4246A73DC00BCA4F3 /* SceneDelegate.swift in Sources */,
 				A4AAADF6246A73DC00BCA4F3 /* ContentView.swift in Sources */,
+				A4BD8991246A8048001E1B7E /* ObservedObjectExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
