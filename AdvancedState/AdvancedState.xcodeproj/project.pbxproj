@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A41EEAF42473AB1D002D4AA7 /* EnvironmentObjectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EEAF32473AB1D002D4AA7 /* EnvironmentObjectExample.swift */; };
 		A4AAADF2246A73DC00BCA4F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AAADF1246A73DC00BCA4F3 /* AppDelegate.swift */; };
 		A4AAADF4246A73DC00BCA4F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AAADF3246A73DC00BCA4F3 /* SceneDelegate.swift */; };
 		A4AAADF6246A73DC00BCA4F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AAADF5246A73DC00BCA4F3 /* ContentView.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A41EEAF32473AB1D002D4AA7 /* EnvironmentObjectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectExample.swift; sourceTree = "<group>"; };
 		A4AAADEE246A73DC00BCA4F3 /* AdvancedState.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedState.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4AAADF1246A73DC00BCA4F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4AAADF3246A73DC00BCA4F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				A4BD8990246A8048001E1B7E /* ObservedObjectExample.swift */,
 				A4BD8992246A84A2001E1B7E /* ObjectWillChangeExample.swift */,
 				A4BD8994246A84BF001E1B7E /* UserAuthentication.swift */,
+				A41EEAF32473AB1D002D4AA7 /* EnvironmentObjectExample.swift */,
 			);
 			path = AdvancedState;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4AAADF2246A73DC00BCA4F3 /* AppDelegate.swift in Sources */,
+				A41EEAF42473AB1D002D4AA7 /* EnvironmentObjectExample.swift in Sources */,
 				A4BD8993246A84A2001E1B7E /* ObjectWillChangeExample.swift in Sources */,
 				A4BD898F246A7EF8001E1B7E /* UserSettings.swift in Sources */,
 				A4BD8995246A84BF001E1B7E /* UserAuthentication.swift in Sources */,
