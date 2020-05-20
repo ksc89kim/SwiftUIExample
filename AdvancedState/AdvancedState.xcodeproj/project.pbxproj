@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		A41EEAF42473AB1D002D4AA7 /* EnvironmentObjectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EEAF32473AB1D002D4AA7 /* EnvironmentObjectExample.swift */; };
+		A41EEAF62473B8B6002D4AA7 /* StateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EEAF52473B8B6002D4AA7 /* StateExample.swift */; };
+		A41EEAF82473BAA4002D4AA7 /* ConstantBindingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EEAF72473BAA4002D4AA7 /* ConstantBindingExample.swift */; };
+		A41EEAFA2473BE9C002D4AA7 /* BindingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EEAF92473BE9C002D4AA7 /* BindingExample.swift */; };
+		A41EEAFC2473C4BE002D4AA7 /* TimerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EEAFB2473C4BE002D4AA7 /* TimerExample.swift */; };
 		A4AAADF2246A73DC00BCA4F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AAADF1246A73DC00BCA4F3 /* AppDelegate.swift */; };
 		A4AAADF4246A73DC00BCA4F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AAADF3246A73DC00BCA4F3 /* SceneDelegate.swift */; };
 		A4AAADF6246A73DC00BCA4F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AAADF5246A73DC00BCA4F3 /* ContentView.swift */; };
@@ -41,6 +45,10 @@
 
 /* Begin PBXFileReference section */
 		A41EEAF32473AB1D002D4AA7 /* EnvironmentObjectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectExample.swift; sourceTree = "<group>"; };
+		A41EEAF52473B8B6002D4AA7 /* StateExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExample.swift; sourceTree = "<group>"; };
+		A41EEAF72473BAA4002D4AA7 /* ConstantBindingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantBindingExample.swift; sourceTree = "<group>"; };
+		A41EEAF92473BE9C002D4AA7 /* BindingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingExample.swift; sourceTree = "<group>"; };
+		A41EEAFB2473C4BE002D4AA7 /* TimerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerExample.swift; sourceTree = "<group>"; };
 		A4AAADEE246A73DC00BCA4F3 /* AdvancedState.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedState.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4AAADF1246A73DC00BCA4F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4AAADF3246A73DC00BCA4F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +129,10 @@
 				A4BD8992246A84A2001E1B7E /* ObjectWillChangeExample.swift */,
 				A4BD8994246A84BF001E1B7E /* UserAuthentication.swift */,
 				A41EEAF32473AB1D002D4AA7 /* EnvironmentObjectExample.swift */,
+				A41EEAF52473B8B6002D4AA7 /* StateExample.swift */,
+				A41EEAF72473BAA4002D4AA7 /* ConstantBindingExample.swift */,
+				A41EEAF92473BE9C002D4AA7 /* BindingExample.swift */,
+				A41EEAFB2473C4BE002D4AA7 /* TimerExample.swift */,
 			);
 			path = AdvancedState;
 			sourceTree = "<group>";
@@ -285,10 +297,14 @@
 				A4AAADF2246A73DC00BCA4F3 /* AppDelegate.swift in Sources */,
 				A41EEAF42473AB1D002D4AA7 /* EnvironmentObjectExample.swift in Sources */,
 				A4BD8993246A84A2001E1B7E /* ObjectWillChangeExample.swift in Sources */,
+				A41EEAFA2473BE9C002D4AA7 /* BindingExample.swift in Sources */,
 				A4BD898F246A7EF8001E1B7E /* UserSettings.swift in Sources */,
+				A41EEAF82473BAA4002D4AA7 /* ConstantBindingExample.swift in Sources */,
 				A4BD8995246A84BF001E1B7E /* UserAuthentication.swift in Sources */,
 				A4AAADF4246A73DC00BCA4F3 /* SceneDelegate.swift in Sources */,
 				A4AAADF6246A73DC00BCA4F3 /* ContentView.swift in Sources */,
+				A41EEAF62473B8B6002D4AA7 /* StateExample.swift in Sources */,
+				A41EEAFC2473C4BE002D4AA7 /* TimerExample.swift in Sources */,
 				A4BD8991246A8048001E1B7E /* ObservedObjectExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

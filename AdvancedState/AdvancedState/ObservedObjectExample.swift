@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+//ObservedObject는 State와 다르게 문자열이나 정수와 같은 간단한 로컬 속성 대신 외부 참조 유형을 사용한다.
 struct ObservedObjectExample: View {
     @ObservedObject var settings = UserSettings()
     
