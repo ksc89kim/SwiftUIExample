@@ -12,14 +12,20 @@ struct DeleteExample: View {
     @State private var users = ["Paul", "Taylor", "Adele"]
 
        var body: some View {
-           NavigationView {
-               List {
-                   ForEach(users, id: \.self) { user in
-                       Text(user)
-                   }
-                   .onDelete(perform: delete)
-               }
-           }
+        if #available(iOS 14.0, *) {
+          NavigationView {
+            List {
+              ForEach(users, id: \.self) { user in
+                Text(user)
+              }
+              .onDelete(perform: delete)
+            }
+          }
+          .toolbar {
+            EditButton()
+          }
+        } else {
+        }
        }
 
        func delete(at offsets: IndexSet) {
