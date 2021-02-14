@@ -10,6 +10,8 @@
 		A4000ABC25D55CA60076CBD4 /* AddSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4000ABB25D55CA60076CBD4 /* AddSection.swift */; };
 		A4000AC125D561DD0076CBD4 /* BackgroundListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4000AC025D561DD0076CBD4 /* BackgroundListView.swift */; };
 		A4000AC625D5627E0076CBD4 /* InsetGroupedListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4000AC525D5627E0076CBD4 /* InsetGroupedListStyle.swift */; };
+		A4332F2925D9681300494CAA /* ExpandingListsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4332F2825D9681200494CAA /* ExpandingListsExample.swift */; };
+		A4332F2E25D96C7900494CAA /* ScrollViewReaderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4332F2D25D96C7900494CAA /* ScrollViewReaderExample.swift */; };
 		A4BE46D324779E6800067341 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BE46D224779E6800067341 /* AppDelegate.swift */; };
 		A4BE46D524779E6800067341 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BE46D424779E6800067341 /* SceneDelegate.swift */; };
 		A4BE46D724779E6800067341 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BE46D624779E6800067341 /* ContentView.swift */; };
@@ -47,6 +49,8 @@
 		A4000ABB25D55CA60076CBD4 /* AddSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSection.swift; sourceTree = "<group>"; };
 		A4000AC025D561DD0076CBD4 /* BackgroundListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundListView.swift; sourceTree = "<group>"; };
 		A4000AC525D5627E0076CBD4 /* InsetGroupedListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGroupedListStyle.swift; sourceTree = "<group>"; };
+		A4332F2825D9681200494CAA /* ExpandingListsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingListsExample.swift; sourceTree = "<group>"; };
+		A4332F2D25D96C7900494CAA /* ScrollViewReaderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderExample.swift; sourceTree = "<group>"; };
 		A4BE46CF24779E6800067341 /* Lists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4BE46D224779E6800067341 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4BE46D424779E6800067341 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 				A4000ABB25D55CA60076CBD4 /* AddSection.swift */,
 				A4000AC025D561DD0076CBD4 /* BackgroundListView.swift */,
 				A4000AC525D5627E0076CBD4 /* InsetGroupedListStyle.swift */,
+				A4332F2825D9681200494CAA /* ExpandingListsExample.swift */,
+				A4332F2D25D96C7900494CAA /* ScrollViewReaderExample.swift */,
 			);
 			path = Lists;
 			sourceTree = "<group>";
@@ -299,6 +305,8 @@
 				A4BE47032477A0C500067341 /* StaticItemExample.swift in Sources */,
 				A4BE470F2477ABBF00067341 /* MoveExample.swift in Sources */,
 				A4BE470B2477A4FD00067341 /* Restaurant.swift in Sources */,
+				A4332F2E25D96C7900494CAA /* ScrollViewReaderExample.swift in Sources */,
+				A4332F2925D9681300494CAA /* ExpandingListsExample.swift in Sources */,
 				A4BE47092477A3BE00067341 /* DynamicItemExample.swift in Sources */,
 				A4BE470D2477A87A00067341 /* DeleteExample.swift in Sources */,
 				A4000AC125D561DD0076CBD4 /* BackgroundListView.swift in Sources */,

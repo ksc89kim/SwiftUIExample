@@ -16,13 +16,12 @@ struct ExampleRow: View {
 struct InsetGroupedListStyle: View {
     var body: some View {
       List {
-        Section(header: Text("Examples")) {
-          ForEach(0..<10) { _ in
-            ExampleRow()
-          }
-          .listStyle(InsetGroupedListStyle())
-        }
+        Text("Item 1")
+        Text("Item 2")
+        Text("Item 3")
       }
+      .listStyle(GroupedListStyle())
+      .environment(\.horizontalSizeClass, .regular)
     }
 }
 
