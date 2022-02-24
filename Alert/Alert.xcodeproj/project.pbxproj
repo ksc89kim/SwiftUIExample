@@ -18,6 +18,11 @@
 		A43E507D260F5CF000DD42AD /* OptionalAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43E507C260F5CF000DD42AD /* OptionalAlert.swift */; };
 		A43E5082260F5E0500DD42AD /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43E5081260F5E0500DD42AD /* AddButton.swift */; };
 		A43E5087260F5FD100DD42AD /* MultipleAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43E5086260F5FD100DD42AD /* MultipleAlerts.swift */; };
+		A48F04AF27C5154C00DC4F13 /* ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48F04AE27C5154C00DC4F13 /* ActionSheet.swift */; };
+		A48F04B127C51C2B00DC4F13 /* ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48F04B027C51C2B00DC4F13 /* ContextMenu.swift */; };
+		A4A9FEBF27C7B4130079DEFB /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9FEBE27C7B4130079DEFB /* AppStore.swift */; };
+		A4A9FEC127C7B7430079DEFB /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9FEC027C7B7430079DEFB /* Menu.swift */; };
+		A4A9FEC327C7BB160079DEFB /* Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9FEC227C7BB160079DEFB /* Picker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,11 @@
 		A43E507C260F5CF000DD42AD /* OptionalAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalAlert.swift; sourceTree = "<group>"; };
 		A43E5081260F5E0500DD42AD /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
 		A43E5086260F5FD100DD42AD /* MultipleAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleAlerts.swift; sourceTree = "<group>"; };
+		A48F04AE27C5154C00DC4F13 /* ActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet.swift; sourceTree = "<group>"; };
+		A48F04B027C51C2B00DC4F13 /* ContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu.swift; sourceTree = "<group>"; };
+		A4A9FEBE27C7B4130079DEFB /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		A4A9FEC027C7B7430079DEFB /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		A4A9FEC227C7BB160079DEFB /* Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				A43E5049260F5A9900DD42AD /* AppDelegate.swift */,
+				A4A9FEC227C7BB160079DEFB /* Picker.swift */,
 				A43E504B260F5A9900DD42AD /* SceneDelegate.swift */,
 				A43E504D260F5A9900DD42AD /* ContentView.swift */,
 				A43E504F260F5A9B00DD42AD /* Assets.xcassets */,
@@ -115,6 +126,10 @@
 				A43E507C260F5CF000DD42AD /* OptionalAlert.swift */,
 				A43E5081260F5E0500DD42AD /* AddButton.swift */,
 				A43E5086260F5FD100DD42AD /* MultipleAlerts.swift */,
+				A48F04AE27C5154C00DC4F13 /* ActionSheet.swift */,
+				A48F04B027C51C2B00DC4F13 /* ContextMenu.swift */,
+				A4A9FEBE27C7B4130079DEFB /* AppStore.swift */,
+				A4A9FEC027C7B7430079DEFB /* Menu.swift */,
 			);
 			path = Alert;
 			sourceTree = "<group>";
@@ -278,9 +293,14 @@
 				A43E5087260F5FD100DD42AD /* MultipleAlerts.swift in Sources */,
 				A43E507D260F5CF000DD42AD /* OptionalAlert.swift in Sources */,
 				A43E504A260F5A9900DD42AD /* AppDelegate.swift in Sources */,
+				A48F04AF27C5154C00DC4F13 /* ActionSheet.swift in Sources */,
+				A4A9FEC127C7B7430079DEFB /* Menu.swift in Sources */,
 				A43E504C260F5A9900DD42AD /* SceneDelegate.swift in Sources */,
 				A43E5082260F5E0500DD42AD /* AddButton.swift in Sources */,
+				A4A9FEBF27C7B4130079DEFB /* AppStore.swift in Sources */,
+				A48F04B127C51C2B00DC4F13 /* ContextMenu.swift in Sources */,
 				A43E504E260F5A9900DD42AD /* ContentView.swift in Sources */,
+				A4A9FEC327C7BB160079DEFB /* Picker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
