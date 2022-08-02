@@ -22,6 +22,12 @@
 		A470CDA328901F56008E4A31 /* PaddingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A470CDA228901F56008E4A31 /* PaddingExample.swift */; };
 		A470CDA52890244F008E4A31 /* ModifiersExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A470CDA42890244F008E4A31 /* ModifiersExample.swift */; };
 		A470CDA7289025CF008E4A31 /* BorderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A470CDA6289025CF008E4A31 /* BorderExample.swift */; };
+		A4FBA0CC289947050067481B /* RotationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBA0CB289947050067481B /* RotationExample.swift */; };
+		A4FBA0CE28994D190067481B /* ScaleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBA0CD28994D190067481B /* ScaleExample.swift */; };
+		A4FBA0D02899505C0067481B /* RoundExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBA0CF2899505C0067481B /* RoundExample.swift */; };
+		A4FBA0D2289951FB0067481B /* AlphaExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBA0D1289951FB0067481B /* AlphaExample.swift */; };
+		A4FBA0D4289956E40067481B /* AccentColorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBA0D3289956E40067481B /* AccentColorExample.swift */; };
+		A4FBA0D6289958E50067481B /* MaksExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBA0D5289958E50067481B /* MaksExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +66,12 @@
 		A470CDA228901F56008E4A31 /* PaddingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingExample.swift; sourceTree = "<group>"; };
 		A470CDA42890244F008E4A31 /* ModifiersExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiersExample.swift; sourceTree = "<group>"; };
 		A470CDA6289025CF008E4A31 /* BorderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderExample.swift; sourceTree = "<group>"; };
+		A4FBA0CB289947050067481B /* RotationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationExample.swift; sourceTree = "<group>"; };
+		A4FBA0CD28994D190067481B /* ScaleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleExample.swift; sourceTree = "<group>"; };
+		A4FBA0CF2899505C0067481B /* RoundExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundExample.swift; sourceTree = "<group>"; };
+		A4FBA0D1289951FB0067481B /* AlphaExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaExample.swift; sourceTree = "<group>"; };
+		A4FBA0D3289956E40067481B /* AccentColorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentColorExample.swift; sourceTree = "<group>"; };
+		A4FBA0D5289958E50067481B /* MaksExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaksExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +134,12 @@
 				A42FE5652892BA3000818B46 /* DashBorderExample.swift */,
 				A42FE5672892C11D00818B46 /* ShadowExample.swift */,
 				A42FE5692892C42600818B46 /* ClipExample.swift */,
+				A4FBA0CB289947050067481B /* RotationExample.swift */,
+				A4FBA0CD28994D190067481B /* ScaleExample.swift */,
+				A4FBA0CF2899505C0067481B /* RoundExample.swift */,
+				A4FBA0D1289951FB0067481B /* AlphaExample.swift */,
+				A4FBA0D3289956E40067481B /* AccentColorExample.swift */,
+				A4FBA0D5289958E50067481B /* MaksExample.swift */,
 			);
 			path = TransformingViews;
 			sourceTree = "<group>";
@@ -282,13 +300,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				A470CDA7289025CF008E4A31 /* BorderExample.swift in Sources */,
+				A4FBA0D02899505C0067481B /* RoundExample.swift in Sources */,
+				A4FBA0CE28994D190067481B /* ScaleExample.swift in Sources */,
 				A42FE5642892B80000818B46 /* StrokeExample.swift in Sources */,
+				A4FBA0D6289958E50067481B /* MaksExample.swift in Sources */,
 				A470CD79289018B7008E4A31 /* ContentView.swift in Sources */,
 				A470CDA1289018FE008E4A31 /* OffsetExample.swift in Sources */,
+				A4FBA0D4289956E40067481B /* AccentColorExample.swift in Sources */,
 				A42FE5662892BA3000818B46 /* DashBorderExample.swift in Sources */,
+				A4FBA0CC289947050067481B /* RotationExample.swift in Sources */,
 				A42FE5682892C11D00818B46 /* ShadowExample.swift in Sources */,
 				A470CDA328901F56008E4A31 /* PaddingExample.swift in Sources */,
 				A42FE56A2892C42600818B46 /* ClipExample.swift in Sources */,
+				A4FBA0D2289951FB0067481B /* AlphaExample.swift in Sources */,
 				A470CD77289018B7008E4A31 /* TransformingViewsApp.swift in Sources */,
 				A470CDA52890244F008E4A31 /* ModifiersExample.swift in Sources */,
 			);
