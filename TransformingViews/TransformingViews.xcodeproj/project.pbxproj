@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A42E6879289BC2710019C7CF /* BlurExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E6878289BC2710019C7CF /* BlurExample.swift */; };
+		A42E687B289BCA550019C7CF /* BlendModeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E687A289BCA550019C7CF /* BlendModeExample.swift */; };
+		A42E687D289BDFA60019C7CF /* AdjustExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E687C289BDFA60019C7CF /* AdjustExample.swift */; };
+		A42E687F289BE0300019C7CF /* ButtonStyleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E687E289BE0300019C7CF /* ButtonStyleExample.swift */; };
+		A42E6882289BE3BF0019C7CF /* ProgressStyleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E6881289BE3BF0019C7CF /* ProgressStyleExample.swift */; };
+		A42E6884289BEA660019C7CF /* ToggleStyleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E6883289BEA660019C7CF /* ToggleStyleExample.swift */; };
 		A42FE5642892B80000818B46 /* StrokeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42FE5632892B80000818B46 /* StrokeExample.swift */; };
 		A42FE5662892BA3000818B46 /* DashBorderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42FE5652892BA3000818B46 /* DashBorderExample.swift */; };
 		A42FE5682892C11D00818B46 /* ShadowExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42FE5672892C11D00818B46 /* ShadowExample.swift */; };
@@ -48,6 +54,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A42E6878289BC2710019C7CF /* BlurExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurExample.swift; sourceTree = "<group>"; };
+		A42E687A289BCA550019C7CF /* BlendModeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendModeExample.swift; sourceTree = "<group>"; };
+		A42E687C289BDFA60019C7CF /* AdjustExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustExample.swift; sourceTree = "<group>"; };
+		A42E687E289BE0300019C7CF /* ButtonStyleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleExample.swift; sourceTree = "<group>"; };
+		A42E6881289BE3BF0019C7CF /* ProgressStyleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressStyleExample.swift; sourceTree = "<group>"; };
+		A42E6883289BEA660019C7CF /* ToggleStyleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleStyleExample.swift; sourceTree = "<group>"; };
 		A42FE5632892B80000818B46 /* StrokeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeExample.swift; sourceTree = "<group>"; };
 		A42FE5652892BA3000818B46 /* DashBorderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBorderExample.swift; sourceTree = "<group>"; };
 		A42FE5672892C11D00818B46 /* ShadowExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowExample.swift; sourceTree = "<group>"; };
@@ -140,6 +152,12 @@
 				A4FBA0D1289951FB0067481B /* AlphaExample.swift */,
 				A4FBA0D3289956E40067481B /* AccentColorExample.swift */,
 				A4FBA0D5289958E50067481B /* MaksExample.swift */,
+				A42E6878289BC2710019C7CF /* BlurExample.swift */,
+				A42E687A289BCA550019C7CF /* BlendModeExample.swift */,
+				A42E687C289BDFA60019C7CF /* AdjustExample.swift */,
+				A42E687E289BE0300019C7CF /* ButtonStyleExample.swift */,
+				A42E6881289BE3BF0019C7CF /* ProgressStyleExample.swift */,
+				A42E6883289BEA660019C7CF /* ToggleStyleExample.swift */,
 			);
 			path = TransformingViews;
 			sourceTree = "<group>";
@@ -306,13 +324,19 @@
 				A4FBA0D6289958E50067481B /* MaksExample.swift in Sources */,
 				A470CD79289018B7008E4A31 /* ContentView.swift in Sources */,
 				A470CDA1289018FE008E4A31 /* OffsetExample.swift in Sources */,
+				A42E6879289BC2710019C7CF /* BlurExample.swift in Sources */,
 				A4FBA0D4289956E40067481B /* AccentColorExample.swift in Sources */,
+				A42E6882289BE3BF0019C7CF /* ProgressStyleExample.swift in Sources */,
 				A42FE5662892BA3000818B46 /* DashBorderExample.swift in Sources */,
 				A4FBA0CC289947050067481B /* RotationExample.swift in Sources */,
 				A42FE5682892C11D00818B46 /* ShadowExample.swift in Sources */,
+				A42E687D289BDFA60019C7CF /* AdjustExample.swift in Sources */,
+				A42E687F289BE0300019C7CF /* ButtonStyleExample.swift in Sources */,
 				A470CDA328901F56008E4A31 /* PaddingExample.swift in Sources */,
 				A42FE56A2892C42600818B46 /* ClipExample.swift in Sources */,
 				A4FBA0D2289951FB0067481B /* AlphaExample.swift in Sources */,
+				A42E6884289BEA660019C7CF /* ToggleStyleExample.swift in Sources */,
+				A42E687B289BCA550019C7CF /* BlendModeExample.swift in Sources */,
 				A470CD77289018B7008E4A31 /* TransformingViewsApp.swift in Sources */,
 				A470CDA52890244F008E4A31 /* ModifiersExample.swift in Sources */,
 			);
