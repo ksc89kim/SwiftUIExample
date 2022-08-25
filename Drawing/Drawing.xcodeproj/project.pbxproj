@@ -17,6 +17,8 @@
 		A42E68D028A25C2F0019C7CF /* BuiltInShapeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E68CF28A25C2F0019C7CF /* BuiltInShapeExample.swift */; };
 		A42E68D228A25EAA0019C7CF /* CustomPathExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E68D128A25EAA0019C7CF /* CustomPathExample.swift */; };
 		A42E68D428A2620F0019C7CF /* PolygonsAndStarsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E68D328A2620F0019C7CF /* PolygonsAndStarsExample.swift */; };
+		A443DAB828B79B7E005DED26 /* CheckerBoardExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A443DAB728B79B7E005DED26 /* CheckerBoardExample.swift */; };
+		A443DABA28B7A09D005DED26 /* BezierPathConvertExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A443DAB928B7A09D005DED26 /* BezierPathConvertExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		A42E68CF28A25C2F0019C7CF /* BuiltInShapeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuiltInShapeExample.swift; sourceTree = "<group>"; };
 		A42E68D128A25EAA0019C7CF /* CustomPathExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPathExample.swift; sourceTree = "<group>"; };
 		A42E68D328A2620F0019C7CF /* PolygonsAndStarsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonsAndStarsExample.swift; sourceTree = "<group>"; };
+		A443DAB728B79B7E005DED26 /* CheckerBoardExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckerBoardExample.swift; sourceTree = "<group>"; };
+		A443DAB928B7A09D005DED26 /* BezierPathConvertExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierPathConvertExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 				A42E68CF28A25C2F0019C7CF /* BuiltInShapeExample.swift */,
 				A42E68D128A25EAA0019C7CF /* CustomPathExample.swift */,
 				A42E68D328A2620F0019C7CF /* PolygonsAndStarsExample.swift */,
+				A443DAB728B79B7E005DED26 /* CheckerBoardExample.swift */,
+				A443DAB928B7A09D005DED26 /* BezierPathConvertExample.swift */,
 			);
 			path = Drawing;
 			sourceTree = "<group>";
@@ -268,6 +274,8 @@
 			files = (
 				A42E68A828A258EE0019C7CF /* ContentView.swift in Sources */,
 				A42E68D428A2620F0019C7CF /* PolygonsAndStarsExample.swift in Sources */,
+				A443DABA28B7A09D005DED26 /* BezierPathConvertExample.swift in Sources */,
+				A443DAB828B79B7E005DED26 /* CheckerBoardExample.swift in Sources */,
 				A42E68A628A258EE0019C7CF /* DrawingApp.swift in Sources */,
 				A42E68D228A25EAA0019C7CF /* CustomPathExample.swift in Sources */,
 				A42E68D028A25C2F0019C7CF /* BuiltInShapeExample.swift in Sources */,
